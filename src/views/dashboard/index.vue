@@ -1,6 +1,12 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
+    <div class="dashboard-text">name: {{ name }}
+
+      <el-button
+        class="icon disk-add"
+        icon="yi-eye-slash"
+      />
+    </div>
   </div>
 </template>
 

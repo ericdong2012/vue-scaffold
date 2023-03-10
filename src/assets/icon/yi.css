@@ -1,0 +1,842 @@
+@font-face {
+  font-family: 'yi';
+  src:  url('yi.eot?we4zuu');
+  src:  url('yi.eot?we4zuu#iefix') format('embedded-opentype'),
+    url('yi.ttf?we4zuu') format('truetype'),
+    url('yi.woff?we4zuu') format('woff'),
+    url('yi.svg?we4zuu#yi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="yi-"], [class*=" yi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yi-s-order:before {
+  content: "\ea0f";
+}
+.yi-cdn:before {
+  content: "\ea0e";
+}
+.yi-eye-slash:before {
+  content: "\ea0c";
+}
+.yi-eye:before {
+  content: "\ea0d";
+}
+.yi-dsn:before {
+  content: "\ea0a";
+}
+.yi-ssn:before {
+  content: "\ea0b";
+}
+.yi-aliyun:before {
+  content: "\ea06";
+}
+.yi-openstack:before {
+  content: "\ea07";
+}
+.yi-vmware:before {
+  content: "\ea08";
+}
+.yi-yovolecloud:before {
+  content: "\ea09";
+}
+.yi-stop:before {
+  content: "\ea04";
+}
+.yi-access:before {
+  content: "\ea05";
+}
+.yi-p-bars:before {
+  content: "\ea02";
+}
+.yi-p-refresh:before {
+  content: "\ea03";
+}
+.yi-s-home:before {
+  content: "\ea01";
+}
+.yi-dns:before {
+  content: "\e9fd";
+}
+.yi-domain:before {
+  content: "\e9fe";
+}
+.yi-transfer-in:before {
+  content: "\e9ff";
+}
+.yi-transfer-out:before {
+  content: "\ea00";
+}
+.yi-p-dns:before {
+  content: "\e9f9";
+}
+.yi-p-domain:before {
+  content: "\e9fa";
+}
+.yi-p-mail:before {
+  content: "\e9fb";
+}
+.yi-p-transfer:before {
+  content: "\e9fc";
+}
+.yi-batch:before {
+  content: "\e9f5";
+}
+.yi-cart:before {
+  content: "\e9f6";
+}
+.yi-code:before {
+  content: "\e9f7";
+}
+.yi-template:before {
+  content: "\e9f8";
+}
+.yi-pnec:before {
+  content: "\e9f3";
+}
+.yi-p-sbw:before {
+  content: "\e9f4";
+}
+.yi-p-pnec:before {
+  content: "\e9f0";
+}
+.yi-p-template:before {
+  content: "\e9f1";
+}
+.yi-sbw:before {
+  content: "\e9f2";
+}
+.yi-net-lb:before {
+  content: "\e9ef";
+}
+.yi-mysql-r:before {
+  content: "\e9ee";
+}
+.yi-p-pg:before {
+  content: "\e9ec";
+}
+.yi-pg:before {
+  content: "\e9ed";
+}
+.yi-android:before {
+  content: "\e9e9";
+}
+.yi-google:before {
+  content: "\e9ea";
+}
+.yi-iphone:before {
+  content: "\e9eb";
+}
+.yi-alarm-slash:before {
+  content: "\e9e6";
+}
+.yi-alarm:before {
+  content: "\e9e7";
+}
+.yi-vm:before {
+  content: "\e9e8";
+}
+.yi-ipddos:before {
+  content: "\e9e4";
+}
+.yi-list:before {
+  content: "\e9e5";
+}
+.yi-s-calculate:before {
+  content: "\e9e3";
+}
+.yi-indent:before {
+  content: "\e9df";
+}
+.yi-outdent:before {
+  content: "\e9e0";
+}
+.yi-chevron-down:before {
+  content: "\e9e1";
+}
+.yi-chevron-up:before {
+  content: "\e9e2";
+}
+.yi-s-volume:before {
+  content: "\e9de";
+}
+.yi-lightbulb:before {
+  content: "\e9dd";
+}
+.yi-part:before {
+  content: "\e9dc";
+}
+.yi-bucket:before {
+  content: "\e9d9";
+}
+.yi-fp:before {
+  content: "\e9da";
+}
+.yi-change:before {
+  content: "\e9db";
+}
+.yi-arrow-bottom:before {
+  content: "\e9d6";
+}
+.yi-arrow-top:before {
+  content: "\e9d7";
+}
+.yi-circle-top:before {
+  content: "\e9d8";
+}
+.yi-free:before {
+  content: "\e9d5";
+}
+.yi-signup:before {
+  content: "\e9d4";
+}
+.yi-padmin:before {
+  content: "\e9d2";
+}
+.yi-s-tools:before {
+  content: "\e9d3";
+}
+.yi-cash:before {
+  content: "\e9cf";
+}
+.yi-contract:before {
+  content: "\e9d0";
+}
+.yi-monthly:before {
+  content: "\e9d1";
+}
+.yi-operation:before {
+  content: "\e9cb";
+}
+.yi-original:before {
+  content: "\e9cc";
+}
+.yi-resource:before {
+  content: "\e9cd";
+}
+.yi-tools:before {
+  content: "\e9ce";
+}
+.yi-check-circle:before {
+  content: "\e9c8";
+}
+.yi-exclam-circle:before {
+  content: "\e9c9";
+}
+.yi-info-circle:before {
+  content: "\e9ca";
+}
+.yi-aggregate:before {
+  content: "\e9c4";
+}
+.yi-flavor:before {
+  content: "\e9c5";
+}
+.yi-pool:before {
+  content: "\e9c6";
+}
+.yi-volume:before {
+  content: "\e9c7";
+}
+.yi-unknown:before {
+  content: "\e98b";
+}
+.yi-export:before {
+  content: "\e9c2";
+}
+.yi-import:before {
+  content: "\e9c3";
+}
+.yi-s-sale:before {
+  content: "\e988";
+}
+.yi-s-setting:before {
+  content: "\e989";
+}
+.yi-ban:before {
+  content: "\e919";
+}
+.yi-calculate:before {
+  content: "\e97b";
+}
+.yi-bars:before {
+  content: "\e968";
+}
+.yi-network:before {
+  content: "\e990";
+}
+.yi-pm:before {
+  content: "\e9c1";
+}
+.yi-computer:before {
+  content: "\e9bd";
+}
+.yi-search:before {
+  content: "\e974";
+}
+.yi-lock:before {
+  content: "\e985";
+}
+.yi-oss:before {
+  content: "\e986";
+}
+.yi-vip:before {
+  content: "\e98a";
+}
+.yi-s-quota:before {
+  content: "\e900";
+}
+.yi-crm:before {
+  content: "\e98d";
+}
+.yi-consume:before {
+  content: "\e9b6";
+}
+.yi-fund:before {
+  content: "\e9b7";
+}
+.yi-gift:before {
+  content: "\e9b8";
+}
+.yi-order:before {
+  content: "\e9b9";
+}
+.yi-s-overview:before {
+  content: "\e9ba";
+}
+.yi-s-product:before {
+  content: "\e9bb";
+}
+.yi-s-pm:before {
+  content: "\e9bc";
+}
+.yi-s-search:before {
+  content: "\e9be";
+}
+.yi-statis:before {
+  content: "\e9bf";
+}
+.yi-trade:before {
+  content: "\e9c0";
+}
+.yi-logout:before {
+  content: "\e9b5";
+}
+.yi-p-certif:before {
+  content: "\e9b0";
+}
+.yi-p-cbm:before {
+  content: "\e9b1";
+}
+.yi-p-connect:before {
+  content: "\e9b2";
+}
+.yi-p-bastion:before {
+  content: "\e9b3";
+}
+.yi-p-backup:before {
+  content: "\e9b4";
+}
+.yi-p-fw:before {
+  content: "\e99a";
+}
+.yi-p-gv:before {
+  content: "\e99b";
+}
+.yi-p-hd:before {
+  content: "\e99c";
+}
+.yi-p-host:before {
+  content: "\e99d";
+}
+.yi-p-image:before {
+  content: "\e99e";
+}
+.yi-p-ip:before {
+  content: "\e99f";
+}
+.yi-p-ips:before {
+  content: "\e9a0";
+}
+.yi-p-lb:before {
+  content: "\e9a1";
+}
+.yi-p-lock:before {
+  content: "\e9a2";
+}
+.yi-p-log:before {
+  content: "\e9a3";
+}
+.yi-p-mon:before {
+  content: "\e9a4";
+}
+.yi-p-mysql:before {
+  content: "\e9a5";
+}
+.yi-p-nat:before {
+  content: "\e9a6";
+}
+.yi-p-oss:before {
+  content: "\e9a7";
+}
+.yi-p-overview:before {
+  content: "\e9a8";
+}
+.yi-p-safety:before {
+  content: "\e9a9";
+}
+.yi-p-ssh:before {
+  content: "\e9aa";
+}
+.yi-p-tag:before {
+  content: "\e9ab";
+}
+.yi-p-vip:before {
+  content: "\e9ac";
+}
+.yi-p-vlan:before {
+  content: "\e9ad";
+}
+.yi-p-vpc:before {
+  content: "\e9ae";
+}
+.yi-p-vpn:before {
+  content: "\e9af";
+}
+.yi-help-circle:before {
+  content: "\e996";
+}
+.yi-language:before {
+  content: "\e997";
+}
+.yi-project:before {
+  content: "\e998";
+}
+.yi-project-o:before {
+  content: "\e999";
+}
+.yi-account:before {
+  content: "\e992";
+}
+.yi-cost:before {
+  content: "\e994";
+}
+.yi-news:before {
+  content: "\e995";
+}
+.yi-certif:before {
+  content: "\e981";
+}
+.yi-device:before {
+  content: "\e982";
+}
+.yi-calendar:before {
+  content: "\e98c";
+}
+.yi-virtual:before {
+  content: "\e98f";
+}
+.yi-wechat:before {
+  content: "\e991";
+}
+.yi-map:before {
+  content: "\e980";
+}
+.yi-close:before {
+  content: "\e97e";
+}
+.yi-add:before {
+  content: "\e97f";
+}
+.yi-cbm:before {
+  content: "\e97c";
+}
+.yi-host-ds:before {
+  content: "\e97a";
+}
+.yi-dc-connect:before {
+  content: "\e976";
+}
+.yi-business:before {
+  content: "\e96e";
+}
+.yi-classify:before {
+  content: "\e975";
+}
+.yi-os-fortinet:before {
+  content: "\e977";
+}
+.yi-client:before {
+  content: "\e963";
+}
+.yi-cloud-net:before {
+  content: "\e96d";
+}
+.yi-bastion:before {
+  content: "\e970";
+}
+.yi-ips:before {
+  content: "\e971";
+}
+.yi-vpn:before {
+  content: "\e972";
+}
+.yi-os-suse:before {
+  content: "\e96c";
+}
+.yi-nat:before {
+  content: "\e96b";
+}
+.yi-rtl:before {
+  content: "\e964";
+}
+.yi-net:before {
+  content: "\e96a";
+}
+.yi-vpc:before {
+  content: "\e969";
+}
+.yi-node:before {
+  content: "\e967";
+}
+.yi-nic:before {
+  content: "\e966";
+}
+.yi-hdd:before {
+  content: "\e961";
+}
+.yi-rack:before {
+  content: "\e962";
+}
+.yi-ssd:before {
+  content: "\e965";
+}
+.yi-exitscreen:before {
+  content: "\e960";
+}
+.yi-clean:before {
+  content: "\e95d";
+}
+.yi-fitscreen:before {
+  content: "\e95e";
+}
+.yi-fullscreen:before {
+  content: "\e95f";
+}
+.yi-ownimg:before {
+  content: "\e95b";
+}
+.yi-shareimg:before {
+  content: "\e95c";
+}
+.yi-cpu:before {
+  content: "\e958";
+}
+.yi-memory:before {
+  content: "\e959";
+}
+.yi-storage:before {
+  content: "\e95a";
+}
+.yi-box:before {
+  content: "\e957";
+}
+.yi-add-permissions:before {
+  content: "\e954";
+}
+.yi-del-permissions:before {
+  content: "\e955";
+}
+.yi-setting-permissions:before {
+  content: "\e956";
+}
+.yi-ellipsis:before {
+  content: "\e94c";
+}
+.yi-mask:before {
+  content: "\e94d";
+}
+.yi-money:before {
+  content: "\e94e";
+}
+.yi-product:before {
+  content: "\e94f";
+}
+.yi-recover:before {
+  content: "\e950";
+}
+.yi-safety:before {
+  content: "\e951";
+}
+.yi-sound:before {
+  content: "\e952";
+}
+.yi-warning:before {
+  content: "\e953";
+}
+.yi-circle-left:before {
+  content: "\e94a";
+}
+.yi-dashboard:before {
+  content: "\e94b";
+}
+.yi-alm:before {
+  content: "\e901";
+}
+.yi-apply:before {
+  content: "\e902";
+}
+.yi-arrow-left:before {
+  content: "\e903";
+}
+.yi-arrow-right:before {
+  content: "\e904";
+}
+.yi-autobu:before {
+  content: "\e905";
+}
+.yi-backup:before {
+  content: "\e906";
+}
+.yi-bandwidth:before {
+  content: "\e907";
+}
+.yi-billing:before {
+  content: "\e908";
+}
+.yi-blueprint:before {
+  content: "\e909";
+}
+.yi-brokeup:before {
+  content: "\e90a";
+}
+.yi-check-mark:before {
+  content: "\e90b";
+}
+.yi-circle-bottom:before {
+  content: "\e90c";
+}
+.yi-circle-right:before {
+  content: "\e90d";
+}
+.yi-clone:before {
+  content: "\e90e";
+}
+.yi-connect:before {
+  content: "\e90f";
+}
+.yi-copy:before {
+  content: "\e910";
+}
+.yi-create:before {
+  content: "\e911";
+}
+.yi-del:before {
+  content: "\e912";
+}
+.yi-dhcp:before {
+  content: "\e913";
+}
+.yi-edit:before {
+  content: "\e914";
+}
+.yi-enlarge:before {
+  content: "\e915";
+}
+.yi-eth:before {
+  content: "\e916";
+}
+.yi-fileedit:before {
+  content: "\e917";
+}
+.yi-filter:before {
+  content: "\e918";
+}
+.yi-fw:before {
+  content: "\e91a";
+}
+.yi-fwdrule:before {
+  content: "\e91b";
+}
+.yi-gv:before {
+  content: "\e91c";
+}
+.yi-hd:before {
+  content: "\e91d";
+}
+.yi-help:before {
+  content: "\e91e";
+}
+.yi-host:before {
+  content: "\e91f";
+}
+.yi-icp:before {
+  content: "\e920";
+}
+.yi-image:before {
+  content: "\e921";
+}
+.yi-ip:before {
+  content: "\e922";
+}
+.yi-ipedit:before {
+  content: "\e923";
+}
+.yi-last:before {
+  content: "\e924";
+}
+.yi-lb:before {
+  content: "\e925";
+}
+.yi-lis:before {
+  content: "\e926";
+}
+.yi-log:before {
+  content: "\e927";
+}
+.yi-mail:before {
+  content: "\e928";
+}
+.yi-mon:before {
+  content: "\e929";
+}
+.yi-more:before {
+  content: "\e92a";
+}
+.yi-mysql:before {
+  content: "\e92b";
+}
+.yi-nas:before {
+  content: "\e92c";
+}
+.yi-next:before {
+  content: "\e92d";
+}
+.yi-off:before {
+  content: "\e92e";
+}
+.yi-os-centos:before {
+  content: "\e92f";
+}
+.yi-os-debian:before {
+  content: "\e930";
+}
+.yi-os-rhel:before {
+  content: "\e931";
+}
+.yi-os-ubuntu:before {
+  content: "\e932";
+}
+.yi-os-windows:before {
+  content: "\e933";
+}
+.yi-pdetails:before {
+  content: "\e934";
+}
+.yi-pmem:before {
+  content: "\e935";
+}
+.yi-portfwd:before {
+  content: "\e936";
+}
+.yi-psw:before {
+  content: "\e937";
+}
+.yi-quota:before {
+  content: "\e938";
+}
+.yi-realtime:before {
+  content: "\e939";
+}
+.yi-reset:before {
+  content: "\e93a";
+}
+.yi-restart:before {
+  content: "\e93b";
+}
+.yi-rollback:before {
+  content: "\e93c";
+}
+.yi-rt:before {
+  content: "\e93d";
+}
+.yi-setting:before {
+  content: "\e93e";
+}
+.yi-ssh:before {
+  content: "\e93f";
+}
+.yi-start:before {
+  content: "\e940";
+}
+.yi-tag:before {
+  content: "\e941";
+}
+.yi-target:before {
+  content: "\e942";
+}
+.yi-task:before {
+  content: "\e943";
+}
+.yi-tickets:before {
+  content: "\e944";
+}
+.yi-trash:before {
+  content: "\e945";
+}
+.yi-user:before {
+  content: "\e946";
+}
+.yi-visit:before {
+  content: "\e947";
+}
+.yi-vlan:before {
+  content: "\e948";
+}
+.yi-vsan:before {
+  content: "\e949";
+}
+.yi-waiting:before {
+  content: "\e96f";
+}
+.yi-acceptance-work-order:before {
+  content: "\e973";
+}
+.yi-balance:before {
+  content: "\e978";
+}
+.yi-child-account:before {
+  content: "\e979";
+}
+.yi-customer:before {
+  content: "\e97d";
+}
+.yi-invoice:before {
+  content: "\e983";
+}
+.yi-not-accept:before {
+  content: "\e984";
+}
+.yi-phone:before {
+  content: "\e987";
+}
+.yi-senddone:before {
+  content: "\e98e";
+}
+.yi-user2:before {
+  content: "\e993";
+}

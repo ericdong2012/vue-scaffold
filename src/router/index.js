@@ -52,7 +52,7 @@ export const constantRoutes = [
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
       // icon 可以是assets/icons/svg中的，也可以是element-ui中的
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: 'Dashboard', icon: 'yi-s-order' }
     }]
   },
 
